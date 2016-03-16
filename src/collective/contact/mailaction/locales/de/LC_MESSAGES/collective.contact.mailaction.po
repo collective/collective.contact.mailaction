@@ -1,64 +1,63 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2016-03-18 09:47+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2016-03-18 10:42+0100\n"
+"Last-Translator: Rene Jochum <rene@webmeisterei.com>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: de\n"
+"Language-Name: German\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.contact.mailaction\n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.4\n"
 
 #. Default: "Cancel"
 #: ../browser/actions/mail.py:94
 msgid "button_cancel"
-msgstr ""
+msgstr "Abbrechen"
 
 #. Default: "Save"
 #: ../browser/actions/mail.py:98
 msgid "button_save"
-msgstr ""
+msgstr "Speichern"
 
 #. Default: "Reply To:"
 #: ../browser/actions/mail.py:48
 msgid "form_reply_to"
-msgstr ""
+msgstr "Antwort an:"
 
 #. Default: "Subject:"
 #: ../browser/actions/mail.py:53
 msgid "form_subject"
-msgstr ""
+msgstr "Betreff:"
 
 #. Default: "Template:"
 #: ../browser/actions/mail.py:43
 msgid "form_template"
-msgstr ""
+msgstr "Vorlage:"
 
 #. Default: "Text:"
 #: ../browser/actions/mail.py:57
 msgid "form_text"
-msgstr ""
+msgstr "Text:"
 
 #. Default: "Send mail to"
 #: ../browser/actions/mail.py:28
 msgid "label_mail_batch"
-msgstr ""
+msgstr "Sende ein Mail"
 
 #. Default: "Send ${number} E-Mails."
 #: ../browser/actions/mail.py:154
 msgid "status_mail_send"
-msgstr ""
+msgstr "${number} E-Mails verschickt."
 
 #. Default: "Failed to parse the Form."
 #: ../browser/actions/mail.py:106
 msgid "status_parse_error"
-msgstr ""
+msgstr "Fehler beim auslesen des Formulars."
 

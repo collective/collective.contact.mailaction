@@ -45,7 +45,9 @@ setup(
     install_requires=[
         'plone.api',
         'setuptools',
-        'z3c.jbot',
+
+        'collective.contact.facetednav',
+        'stoneagehtml',
     ],
     extras_require={
         'test': [

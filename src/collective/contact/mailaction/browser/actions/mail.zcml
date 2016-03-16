@@ -1,0 +1,29 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="collective.contact.mailaction">
+
+  <browser:viewlet
+      name="collective.contact.mailaction.actions.delete"
+      manager="collective.contact.facetednav.browser.actions.manager.IBatchActions"
+      class="collective.contact.mailaction.browser.actions.mail.MailBatchAction"
+      layer="collective.contact.mailaction.interfaces.ICollectiveContactMailactionLayer"
+      permission="zope2.View"
+      />
+
+  <browser:page
+    name="mail_selection"
+    for="*"
+    class="collective.contact.mailaction.browser.actions.mail.MailSelectionView"
+    layer="collective.contact.mailaction.interfaces.ICollectiveContactMailactionLayer"
+    permission="zope2.View"
+    />
+
+
+  <utility component="collective.contact.mailaction.browser.actions.mail.default_template"
+           name="default"
+           provides="collective.contact.mailaction.interfaces.ICollectiveContactMailactionTemplate" />
+
+
+</configure>

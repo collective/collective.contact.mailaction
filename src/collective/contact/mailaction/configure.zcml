@@ -27,4 +27,14 @@
       handler=".setuphandlers.post_install">
   </genericsetup:importStep>
 
+
+  <include file="browser/actions/mail.zcml" />
+
+  <!-- Vocabluaries -->
+  <utility component=".vocabularies.MailSenderVocabulary"
+      name="collective.contact.mailaction.mailsender" />
+
+  <utility component=".vocabularies.TemplatesVocabulary"
+      name="collective.contact.mailaction.templates" />
+
 </configure>

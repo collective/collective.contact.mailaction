@@ -1,0 +1,202 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      lang="en"
+      i18n:domain="collective.dancing">
+
+  <head>
+    <title tal:content="options/subject">Subject</title>
+
+
+    <style type="text/css">
+
+
+        /*
+        ************/
+    </style>
+
+  </head>
+
+  <body class="default">
+  <center>
+
+
+    <table id="bodyTable" width="100%" cellspacing="0" cellpadding="0" border="0" align="center" height="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt ">
+    <tbody>
+    <tr>
+    <td width="100%" valign="top" align="center" height="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt " id="bodyCell">
+
+
+        <table id="templateContainer" cellspacing="0" cellpadding="0" border="0" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt ">
+        <tbody>
+
+            <tr class="trHeader">
+
+            <td valign="top" align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+            <!-- BEGIN HEADER -->
+            <table id="templateHeader" width="100%" cellspacing="0" cellpadding="0" border="0" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+            <tbody>
+                <tr>
+
+                <td valign="top" align="left" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+                <table width="100%" cellspacing="0" cellpadding="20" border="0" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+                <tbody><tr>
+                    <td valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+
+
+                    <table id="templateLogo" cellspacing="0" cellpadding="0" border="0" align="right" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                        <tbody>
+                            <tr>
+                                <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;" class="logoContent">
+                                    <img  src="logo.png"
+                                          id="headerLogoImage"
+                                          border="0"
+                                          tal:attributes="src string:${options/site_url}/logo.png"
+                                          alt="Logo" />
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table cellspacing="0" cellpadding="0" border="0" align="left" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;" >
+                        <tbody>
+                            <tr>
+                                <td style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+
+                                    <h1 class="newsletterSubject" tal:content="options/subject">Halt amol!</h1>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    </td>
+                </tr></tbody>
+                </table>
+                </td>
+
+                </tr>
+
+
+                <tr>
+                    <td class="headerShadow">
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+            <!-- END HEADER -->
+            </td>
+
+            </tr>
+
+
+
+
+            <tr class="trContent">
+
+            <td valign="top" align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+
+            <table id="templateBody" width="100%" cellspacing="0" cellpadding="20" border="0" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+            <tbody><tr>
+
+                <td valign="top" align="left" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+                <table width="100%" cellspacing="0" cellpadding="0" border="0" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+                <tbody>
+
+                    <tr tal:define="header options/header_text|nothing"
+                        tal:condition="header">
+                    <td  class="contentHeader" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+
+                        <span tal:replace="structure header">
+                        Header text
+                        </span>
+
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td class="contentItem" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                        <tbody><tr>
+                            <td valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;"
+                                tal:content="structure options/body">
+
+                            <table cellspacing="0" cellpadding="0" border="0" align="right" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;" class="columnImageBlock">
+                            <tbody><tr>
+                                <td align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt ">
+                                    <img border="0" class="columnImage"
+                                         alt=""
+                                         src="#" />
+                                </td>
+                            </tr></tbody>
+                            </table>
+
+                            <table cellspacing="0" cellpadding="0" border="0" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;" class="columnContentBlock">
+                            <tbody><tr>
+                                <td valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+                                    Text goes here
+                                </td>
+                            </tr></tbody>
+                            </table>
+
+                            </td>
+                        </tr></tbody>
+                        </table>
+
+                    </td>
+                    </tr>
+
+                    <tr>
+                    <td class="textFooter" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+
+                        <span tal:define="footer options/footer_text|nothing"
+                              tal:condition="footer"
+                              tal:replace="structure footer">
+                        Header text
+                        </span>
+
+                    </td>
+                    </tr>
+
+                </tbody>
+                </table>
+                </td>
+
+            </tr></tbody>
+            </table>
+
+            </td>
+            </tr>
+
+            <tr class="trFooter">
+
+            <td valign="top" align="center" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+
+            <table width="100%" cellspacing="0" cellpadding="0" border="0" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+            <tbody>
+                <tr>
+
+                <td valign="top" align="left" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt">
+                </td>
+
+                </tr>
+
+            </tbody>
+            </table>
+            </td>
+            <!-- end footer  -->
+            </tr>
+
+        </tbody>
+        </table>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+
+  </center>
+  </body>
+
+</html>
