@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-03-18 09:47+0000\n"
+"POT-Creation-Date: 2016-03-18 11:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,9 +22,9 @@ msgstr ""
 msgid "button_cancel"
 msgstr ""
 
-#. Default: "Save"
+#. Default: "Send"
 #: ../browser/actions/mail.py:98
-msgid "button_save"
+msgid "button_send"
 msgstr ""
 
 #. Default: "Reply To:"

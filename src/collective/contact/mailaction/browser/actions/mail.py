@@ -95,7 +95,7 @@ class MailSendForm(form.Form):
     def handleCancel(self, action):
         self.request.response.redirect(self.context.absolute_url())
 
-    @button.buttonAndHandler(_(u'button_save', default=u'Save'))
+    @button.buttonAndHandler(_(u'button_send', default=u'Send'))
     def handleSave(self, action):
         statusmessages = IStatusMessage(self.request)
 
