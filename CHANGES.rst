@@ -5,6 +5,8 @@ Changelog
 1.0a1 (unreleased)
 ------------------
 
+- Depend on 'collective.contact.facetednav:default'.
+
 - Add german translations.
   [pcdummy]
 

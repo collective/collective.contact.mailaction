@@ -2,5 +2,6 @@
 <metadata>
   <version>1000</version>
   <dependencies>
+    <dependency>profile-collective.contact.facetednav:default</dependency>
   </dependencies>
 </metadata>
