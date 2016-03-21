@@ -37,4 +37,5 @@
   <utility component=".vocabularies.TemplatesVocabulary"
       name="collective.contact.mailaction.templates" />
 
+  <adapter factory=".adapters.RecipientProvider" />
 </configure>

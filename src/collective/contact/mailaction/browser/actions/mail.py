@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 from .mail_utils import Composer
 from .mail_utils import create_email_body
-from email.utils import formataddr
 from collective.contact.contactlist.api import get_tool
-from collective.contact.core.behaviors import IContactDetails
 from collective.contact.core.content.held_position import IHeldPosition
 from collective.contact.facetednav.browser.actions.base import BatchActionBase
 from collective.contact.mailaction import _
+from collective.contact.mailaction.adapters import IRecipientProvider
+from email.utils import formataddr
 from plone import api
 from plone.protect import PostOnly
 from plone.z3cform.layout import wrap_form
@@ -136,14 +136,13 @@ class MailSendForm(form.Form):
         mailcount = 0
         for uid in self.uids:
             obj = api.content.get(UID=uid)
+
             if obj:
                 if IHeldPosition.providedBy(obj):
                     obj = IHeldPosition(obj).get_person()
 
-                cd = IContactDetails(obj)
-
                 api.portal.send_email(
-                    recipient=cd.email,
+                    recipient=IRecipientProvider(obj)(),
                     sender=sender_mail,
                     subject=data['subject'],
                     body=msg

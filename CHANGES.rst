@@ -5,7 +5,11 @@ Changelog
 1.0a1 (unreleased)
 ------------------
 
+- Make the recipient overwriteable over an adapter.
+  [pcdummy]
+
 - Correct label the label for the 'send' button.
+  [pcdummy]
 
 - Depend on 'collective.contact.facetednav:default'.
   [pcdummy]
