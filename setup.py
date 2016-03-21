@@ -47,7 +47,6 @@ setup(
         'setuptools',
 
         'collective.contact.facetednav',
-        'stoneagehtml',
     ],
     extras_require={
         'test': [

@@ -5,6 +5,9 @@ Changelog
 1.0a1 (unreleased)
 ------------------
 
+- Stonagehtml removed (got troubles with a html template).
+  [pcdummy]
+
 - Make the recipient overwriteable over an adapter.
   [pcdummy]
 

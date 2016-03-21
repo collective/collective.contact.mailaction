@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from collective.contact.mailaction.interfaces import ICollectiveContactMailactionTemplate
+from collective.contact.mailaction.interfaces import \
+    ICollectiveContactMailactionTemplate
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 from email.Utils import formatdate
@@ -11,30 +12,12 @@ import email
 import formatter
 import htmllib
 import logging
-import stoneagehtml
 import StringIO
 
 
 PATTERN = '************/'
 
 logger = logging.getLogger('collective.contact.mailaction')
-
-
-def compactify(html):
-    """Make the html compact.
-    We use stoneagehtml for this.  We catch at least one error that
-    can occur with some css code, that stoneagehtml tries to clean up
-    using cssutils.
-    See https://bugs.launchpad.net/singing-dancing/+bug/410238
-    We also return utf-8.
-    """
-    try:
-        html = stoneagehtml.compactify(html, filter_tags=False)
-    except IndexError:
-        logger.warn("Exception while compacting html with stoneagehtml; "
-                    "using original instead.")
-        pass
-    return html.decode('utf-8')
 
 
 class Composer(object):
@@ -60,7 +43,7 @@ class Composer(object):
             **vars  # Tal options
         )
 
-        return compactify(html)
+        return html
 
 
 def create_email_body(html, text=None, headers=None):
