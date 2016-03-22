@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from .mail_utils import Composer
 from .mail_utils import create_email_body
-from collective.contact.contactlist.api import get_tool
 from collective.contact.core.content.held_position import IHeldPosition
 from collective.contact.facetednav.browser.actions.base import BatchActionBase
 from collective.contact.mailaction import _
@@ -35,7 +34,7 @@ class MailBatchAction(BatchActionBase):
         return 'contactcontactmailsend.facetednav_send_mail()'
 
     def available(self):
-        return get_tool().get_container() is not None
+        return True
 
 
 class IMailSendForm(Interface):

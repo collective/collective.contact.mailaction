@@ -5,6 +5,9 @@ Changelog
 1.0a1 (unreleased)
 ------------------
 
+- No need checking for contaclists in mailaction.
+  [pcdummy]
+
 - Stonagehtml removed (got troubles with a html template).
   [pcdummy]
 
