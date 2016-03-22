@@ -53,7 +53,7 @@ class IMailSendForm(Interface):
     )
 
     text = schema.Text(
-        title=_(u"form_text", default=u"Text:")
+        title=_(u"form_text", default=u"Text:"),
     )
 
 
@@ -89,6 +89,7 @@ class MailSendForm(form.Form):
 
         super(MailSendForm, self).updateWidgets()
         self.widgets['uids_input'].mode = interfaces.HIDDEN_MODE
+        self.widgets['text'].rows = 20
 
     @button.buttonAndHandler(_(u'button_cancel', default=u'Cancel'))
     def handleCancel(self, action):

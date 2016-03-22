@@ -5,6 +5,9 @@ Changelog
 1.0a1 (unreleased)
 ------------------
 
+- Make the textfield 20 rows high.
+  [pcdummy]
+
 - No need checking for contaclists in mailaction.
   [pcdummy]
 
