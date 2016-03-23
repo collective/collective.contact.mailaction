@@ -5,6 +5,9 @@ Changelog
 1.0a1 (unreleased)
 ------------------
 
+- Use only the lastname as sender name if no firstname has been given.
+  [pcdummy]
+
 - Make the textfield 20 rows high.
   [pcdummy]
 

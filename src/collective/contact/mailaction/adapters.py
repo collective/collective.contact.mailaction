@@ -21,7 +21,13 @@ class RecipientProvider(object):
 
     def __call__(self):
         cd = IContactDetails(self.context)
-        return formataddr((
-            "%s %s" % (self.context.firstname, self.context.lastname),
-            cd.email,
-        ))
+        if self.context.firstname:
+            return formataddr((
+                "%s %s" % (self.context.firstname, self.context.lastname),
+                cd.email,
+            ))
+        else:
+            return formataddr((
+                self.context.lastname,
+                cd.email,
+            ))
