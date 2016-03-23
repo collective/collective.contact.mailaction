@@ -5,6 +5,9 @@ Changelog
 1.0a1 (unreleased)
 ------------------
 
+- Use html2text to transfer the html email to text.
+  [pcdummy]
+
 - Use only the lastname as sender name if no firstname has been given.
   [pcdummy]
 

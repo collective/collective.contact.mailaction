@@ -47,6 +47,7 @@ setup(
         'setuptools',
 
         'collective.contact.facetednav',
+        'html2text',
     ],
     extras_require={
         'test': [

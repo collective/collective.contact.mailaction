@@ -38,12 +38,13 @@ def MailSenderVocabulary(context):
 
     # The current authenticated Members E-Mail.
     member = api.user.get_current()
-    email = member.getProperty("email")
-    if email != u"":
-        items[email] = formataddr((
-            member.getProperty("fullname"),
-            email,
-        ))
+    if member:
+        email = member.getProperty("email")
+        if email != u"":
+            items[email] = formataddr((
+                member.getProperty("fullname"),
+                email,
+            ))
 
     terms = []
     for _id, title in items.iteritems():
