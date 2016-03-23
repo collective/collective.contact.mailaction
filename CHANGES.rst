@@ -5,6 +5,9 @@ Changelog
 1.0a1 (unreleased)
 ------------------
 
+- Parse the input text field as restructured text.
+  [pcdummy]
+
 - Use html2text to transfer the html email to text.
   [pcdummy]
 

@@ -54,6 +54,10 @@ class IMailSendForm(Interface):
 
     text = schema.Text(
         title=_(u"form_text", default=u"Text:"),
+        description=_(
+            u"form_text_help",
+            default=u"You can use restructured text here."
+        )
     )
 
 
@@ -108,10 +112,17 @@ class MailSendForm(form.Form):
             )
             return False
 
+        portal_transforms = api.portal.get_tool(name='portal_transforms')
+        transformed = portal_transforms.convertTo(
+            'text/html',
+            data['text'],
+            mimetype='text/restructured',
+        )
+
         portal = api.portal.get()
         vars = {
             'subject': data['subject'],
-            'body': data['text'].replace("\n", "<br />"),
+            'body': transformed.getData(),
             'site_url': portal.absolute_url(),
             'site_title': portal.Title(),
         }
