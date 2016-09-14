@@ -5,6 +5,7 @@ from collective.contact.core.content.held_position import IHeldPosition
 from collective.contact.facetednav.browser.actions.base import BatchActionBase
 from collective.contact.mailaction import _
 from collective.contact.mailaction.adapters import IRecipientProvider
+from collective.contact.mailaction.vocabularies import MailSenderVocabulary
 from email.utils import formataddr
 from plone import api
 from plone.protect import PostOnly
@@ -139,7 +140,8 @@ class MailSendForm(form.Form):
             portal.email_from_address,
         ))
 
-        msg = create_email_body(html, headers={"Reply-To": data['reply_to']})
+        mailSVocab = MailSenderVocabulary(self.context)
+        msg = create_email_body(html, headers={"Reply-To": mailSVocab.getTerm(data['reply_to']).title})
 
         if not self.uids:
             self.uids = data['uids_input'].split(',')

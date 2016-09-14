@@ -5,6 +5,9 @@ Changelog
 1.0a1 (unreleased)
 ------------------
 
+- Add the Name of the sender to the Reply-To field.
+  [pcdummy]
+
 - Parse the input text field as restructured text.
   [pcdummy]
 
