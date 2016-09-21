@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-1.0a1 (unreleased)
-------------------
+1.0 (2016-09-21)
+----------------
 
 - Add the Name of the sender to the Reply-To field.
   [pcdummy]
