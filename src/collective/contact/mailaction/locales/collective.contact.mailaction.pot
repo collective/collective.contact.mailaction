@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-03-18 11:49+0000\n"
+"POT-Creation-Date: 2016-09-29 10:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Domain: collective.contact.mailaction\n"
 
 #. Default: "Cancel"
-#: ../browser/actions/mail.py:94
+#: ../browser/actions/mail.py:99
 msgid "button_cancel"
 msgstr ""
 
 #. Default: "Send"
-#: ../browser/actions/mail.py:98
+#: ../browser/actions/mail.py:103
 msgid "button_send"
 msgstr ""
 
@@ -47,18 +47,23 @@ msgstr ""
 msgid "form_text"
 msgstr ""
 
+#. Default: "You can use restructured text here."
+#: ../browser/actions/mail.py:58
+msgid "form_text_help"
+msgstr ""
+
 #. Default: "Send mail to"
 #: ../browser/actions/mail.py:28
 msgid "label_mail_batch"
 msgstr ""
 
 #. Default: "Send ${number} E-Mails."
-#: ../browser/actions/mail.py:154
+#: ../browser/actions/mail.py:166
 msgid "status_mail_send"
 msgstr ""
 
 #. Default: "Failed to parse the Form."
-#: ../browser/actions/mail.py:106
+#: ../browser/actions/mail.py:111
 msgid "status_parse_error"
 msgstr ""
 
