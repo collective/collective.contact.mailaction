@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-09-29 10:41+0000\n"
+"POT-Creation-Date: 2016-11-17 14:52+0000\n"
 "PO-Revision-Date: 2016-11-16 11:22+0100\n"
 "Last-Translator: Rene Jochum <info@smile4.at>\n"
 "Language-Team: \n"
@@ -56,12 +56,13 @@ msgstr "Hier kann „restructured text“ verwendet werden."
 msgid "label_mail_batch"
 msgstr "Sende ein Mail"
 
-#. Default: "Send ${number} E-Mails."
+#. Default: "Sent ${number} E-Mails."
 #: ../browser/actions/mail.py:166
 msgid "status_mail_send"
-msgstr "${number} E-Mails schicken"
+msgstr "${number} E-Mails versendet."
 
 #. Default: "Failed to parse the Form."
 #: ../browser/actions/mail.py:111
 msgid "status_parse_error"
 msgstr "Fehler beim Auslesen des Formulars."
+

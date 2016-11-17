@@ -164,7 +164,7 @@ class MailSendForm(form.Form):
 
         statusmessages.add(
             _(u"status_mail_send",
-                default="Send ${number} E-Mails.",
+                default="Sent ${number} E-Mails.",
                 mapping={"number": mailcount}),
             type="info"
         )

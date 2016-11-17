@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-09-29 10:41+0000\n"
+"POT-Creation-Date: 2016-11-17 14:52+0000\n"
 "PO-Revision-Date: 2016-10-04 19:01+0200\n"
 "Last-Translator: Rene Jochum <info@smile4.at>\n"
 "Language-Team: \n"
@@ -56,7 +56,7 @@ msgstr "Converti il testo in testo formattato."
 msgid "label_mail_batch"
 msgstr "Invia messaggio a"
 
-#. Default: "Send ${number} E-Mails."
+#. Default: "Sent ${number} E-Mails."
 #: ../browser/actions/mail.py:166
 msgid "status_mail_send"
 msgstr "Invio ${number} messaggio/i."
@@ -65,3 +65,4 @@ msgstr "Invio ${number} messaggio/i."
 #: ../browser/actions/mail.py:111
 msgid "status_parse_error"
 msgstr "Errore di analisi del modulo."
+
