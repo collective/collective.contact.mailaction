@@ -5,7 +5,8 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Add translations for de, it, fr and sl
+  [fRiSi]
 
 
 1.0 (2016-09-21)
