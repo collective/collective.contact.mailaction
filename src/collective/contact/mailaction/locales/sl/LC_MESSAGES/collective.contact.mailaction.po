@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-09-29 10:41+0000\n"
-"PO-Revision-Date: 2016-03-18 12:50+0100\n"
+"PO-Revision-Date: 2016-10-01 23:36+0200\n"
 "Last-Translator: Rene Jochum <info@smile4.at>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -14,55 +14,54 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.contact.mailaction\n"
 "Language: sl\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #. Default: "Cancel"
 #: ../browser/actions/mail.py:99
 msgid "button_cancel"
-msgstr ""
+msgstr "Prekliči"
 
 #. Default: "Send"
 #: ../browser/actions/mail.py:103
 msgid "button_send"
-msgstr ""
+msgstr "Pošlji"
 
 #. Default: "Reply To:"
 #: ../browser/actions/mail.py:48
 msgid "form_reply_to"
-msgstr ""
+msgstr "Odgovori"
 
 #. Default: "Subject:"
 #: ../browser/actions/mail.py:53
 msgid "form_subject"
-msgstr ""
+msgstr "Predmet"
 
 #. Default: "Template:"
 #: ../browser/actions/mail.py:43
 msgid "form_template"
-msgstr ""
+msgstr "Predloga"
 
 #. Default: "Text:"
 #: ../browser/actions/mail.py:57
 msgid "form_text"
-msgstr ""
+msgstr "Besedilo"
 
 #. Default: "You can use restructured text here."
 #: ../browser/actions/mail.py:58
 msgid "form_text_help"
-msgstr ""
+msgstr "Restrukturirano besedilo lahko uporabite tukaj."
 
 #. Default: "Send mail to"
 #: ../browser/actions/mail.py:28
 msgid "label_mail_batch"
-msgstr ""
+msgstr "Pošlji sporočilo"
 
 #. Default: "Send ${number} E-Mails."
 #: ../browser/actions/mail.py:166
 msgid "status_mail_send"
-msgstr ""
+msgstr "Pošlji sporočila."
 
 #. Default: "Failed to parse the Form."
 #: ../browser/actions/mail.py:111
 msgid "status_parse_error"
-msgstr ""
-
+msgstr "Poskus razčlenitve oblike ni uspel."
