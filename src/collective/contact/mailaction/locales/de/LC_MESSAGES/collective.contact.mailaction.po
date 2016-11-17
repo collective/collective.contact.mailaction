@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-09-29 10:41+0000\n"
-"PO-Revision-Date: 2016-03-18 12:50+0100\n"
+"PO-Revision-Date: 2016-11-16 11:22+0100\n"
 "Last-Translator: Rene Jochum <info@smile4.at>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.contact.mailaction\n"
 "Language: de\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #. Default: "Cancel"
 #: ../browser/actions/mail.py:99
@@ -49,7 +49,7 @@ msgstr "Text:"
 #. Default: "You can use restructured text here."
 #: ../browser/actions/mail.py:58
 msgid "form_text_help"
-msgstr ""
+msgstr "Hier kann „restructured text“ verwendet werden."
 
 #. Default: "Send mail to"
 #: ../browser/actions/mail.py:28
@@ -59,10 +59,9 @@ msgstr "Sende ein Mail"
 #. Default: "Send ${number} E-Mails."
 #: ../browser/actions/mail.py:166
 msgid "status_mail_send"
-msgstr "${number} E-Mails verschickt."
+msgstr "${number} E-Mails schicken"
 
 #. Default: "Failed to parse the Form."
 #: ../browser/actions/mail.py:111
 msgid "status_parse_error"
-msgstr "Fehler beim auslesen des Formulars."
-
+msgstr "Fehler beim Auslesen des Formulars."
