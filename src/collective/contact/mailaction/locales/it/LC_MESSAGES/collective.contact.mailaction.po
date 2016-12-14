@@ -2,67 +2,67 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-11-17 14:52+0000\n"
-"PO-Revision-Date: 2016-11-16 11:22+0100\n"
+"PO-Revision-Date: 2016-10-04 19:01+0200\n"
 "Last-Translator: Rene Jochum <info@smile4.at>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language-Code: de\n"
-"Language-Name: German\n"
+"Language-Code: it\n"
+"Language-Name: Italian\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.contact.mailaction\n"
-"Language: de\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: it\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #. Default: "Cancel"
 #: ../browser/actions/mail.py:99
 msgid "button_cancel"
-msgstr "Abbrechen"
+msgstr "Elimina"
 
 #. Default: "Send"
 #: ../browser/actions/mail.py:103
 msgid "button_send"
-msgstr "Senden"
+msgstr "Invia"
 
 #. Default: "Reply To:"
 #: ../browser/actions/mail.py:48
 msgid "form_reply_to"
-msgstr "Antwort an:"
+msgstr "Rispondi A:"
 
 #. Default: "Subject:"
 #: ../browser/actions/mail.py:53
 msgid "form_subject"
-msgstr "Betreff:"
+msgstr "Oggetto:"
 
 #. Default: "Template:"
 #: ../browser/actions/mail.py:43
 msgid "form_template"
-msgstr "Vorlage:"
+msgstr "Modello:"
 
 #. Default: "Text:"
 #: ../browser/actions/mail.py:57
 msgid "form_text"
-msgstr "Text:"
+msgstr "Testo:"
 
 #. Default: "You can use restructured text here."
 #: ../browser/actions/mail.py:58
 msgid "form_text_help"
-msgstr "Hier kann „restructured text“ verwendet werden."
+msgstr "Converti il testo in testo formattato."
 
 #. Default: "Send mail to"
 #: ../browser/actions/mail.py:28
 msgid "label_mail_batch"
-msgstr "Sende ein Mail"
+msgstr "Invia messaggio a"
 
 #. Default: "Sent ${number} E-Mails."
 #: ../browser/actions/mail.py:166
 msgid "status_mail_send"
-msgstr "${number} E-Mails versendet."
+msgstr "Invio ${number} messaggio/i."
 
 #. Default: "Failed to parse the Form."
 #: ../browser/actions/mail.py:111
 msgid "status_parse_error"
-msgstr "Fehler beim Auslesen des Formulars."
+msgstr "Errore di analisi del modulo."
 

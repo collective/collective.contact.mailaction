@@ -1,68 +1,71 @@
+# Harald Friessnegger <harald@webmeisterei.com>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-11-17 14:52+0000\n"
-"PO-Revision-Date: 2016-11-16 11:22+0100\n"
-"Last-Translator: Rene Jochum <info@smile4.at>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2016-12-14 11:03+0100\n"
+"Last-Translator: Harald Friessnegger <harald@webmeisterei.com>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Language-Code: de\n"
-"Language-Name: German\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%"
+"100==4 ? 3 : 0);\n"
+"Language-Code: sl\n"
+"Language-Name: Slovenian\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.contact.mailaction\n"
-"Language: de\n"
-"X-Generator: Poedit 1.8.8\n"
+"Language: sl\n"
+"X-Generator: Lokalize 2.0\n"
 
 #. Default: "Cancel"
 #: ../browser/actions/mail.py:99
 msgid "button_cancel"
-msgstr "Abbrechen"
+msgstr "Prekliči"
 
 #. Default: "Send"
 #: ../browser/actions/mail.py:103
 msgid "button_send"
-msgstr "Senden"
+msgstr "Pošlji"
 
 #. Default: "Reply To:"
 #: ../browser/actions/mail.py:48
 msgid "form_reply_to"
-msgstr "Antwort an:"
+msgstr "Odgovori"
 
 #. Default: "Subject:"
 #: ../browser/actions/mail.py:53
 msgid "form_subject"
-msgstr "Betreff:"
+msgstr "Predmet"
 
 #. Default: "Template:"
 #: ../browser/actions/mail.py:43
 msgid "form_template"
-msgstr "Vorlage:"
+msgstr "Predloga"
 
 #. Default: "Text:"
 #: ../browser/actions/mail.py:57
 msgid "form_text"
-msgstr "Text:"
+msgstr "Besedilo"
 
 #. Default: "You can use restructured text here."
 #: ../browser/actions/mail.py:58
 msgid "form_text_help"
-msgstr "Hier kann „restructured text“ verwendet werden."
+msgstr "Restrukturirano besedilo lahko uporabite tukaj."
 
 #. Default: "Send mail to"
 #: ../browser/actions/mail.py:28
 msgid "label_mail_batch"
-msgstr "Sende ein Mail"
+msgstr "Pošlji sporočilo"
 
 #. Default: "Sent ${number} E-Mails."
 #: ../browser/actions/mail.py:166
 msgid "status_mail_send"
-msgstr "${number} E-Mails versendet."
+msgstr "Pošlji ${number} e-sporočil."
 
 #. Default: "Failed to parse the Form."
 #: ../browser/actions/mail.py:111
 msgid "status_parse_error"
-msgstr "Fehler beim Auslesen des Formulars."
+msgstr "Poskus razčlenitve oblike ni uspel."
+
 
