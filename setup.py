@@ -34,7 +34,7 @@ setup(
     ],
     keywords='Python Plone',
     author='Webmeisterei GmbH',
-    author_email='rene@webmeisterei.com',
+    author_email='office@webmeisterei.com',
     url='https://pypi.python.org/pypi/collective.contact.mailaction',
     license='GPL version 2',
     packages=find_packages('src', exclude=['ez_setup']),

@@ -1,1 +1,2 @@
-- Webmeisterei GmbH, rene@webmeisterei.com
+- Rene Jochum, Webmeisterei GmbH
+- Harald Frießnegger, Webmeisterei GmbH
