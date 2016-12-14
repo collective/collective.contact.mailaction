@@ -1,20 +1,22 @@
+# Harald Friessnegger <harald@webmeisterei.com>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2016-11-17 14:52+0000\n"
-"PO-Revision-Date: 2016-10-01 23:36+0200\n"
-"Last-Translator: Rene Jochum <info@smile4.at>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2016-12-14 11:03+0100\n"
+"Last-Translator: Harald Friessnegger <harald@webmeisterei.com>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%"
+"100==4 ? 3 : 0);\n"
 "Language-Code: sl\n"
-"Language-Name: SL\n"
+"Language-Name: Slovenian\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.contact.mailaction\n"
 "Language: sl\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Lokalize 2.0\n"
 
 #. Default: "Cancel"
 #: ../browser/actions/mail.py:99
@@ -59,10 +61,11 @@ msgstr "Pošlji sporočilo"
 #. Default: "Sent ${number} E-Mails."
 #: ../browser/actions/mail.py:166
 msgid "status_mail_send"
-msgstr "Pošlji sporočila."
+msgstr "Pošlji ${number} e-sporočil."
 
 #. Default: "Failed to parse the Form."
 #: ../browser/actions/mail.py:111
 msgid "status_parse_error"
 msgstr "Poskus razčlenitve oblike ni uspel."
+
 
