@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
-from .mail_utils import Composer
-from .mail_utils import create_email_body
+from Products.CMFPlone.utils import safe_unicode
+from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
+from Products.statusmessages.interfaces import IStatusMessage
 from collective.contact.core.content.held_position import IHeldPosition
 from collective.contact.facetednav.browser.actions.base import BatchActionBase
 from collective.contact.mailaction import _
 from collective.contact.mailaction.adapters import IRecipientProvider
+from collective.contact.mailaction.browser.actions.mail_utils import Composer
+from collective.contact.mailaction.browser.actions.mail_utils import create_email_body
 from collective.contact.mailaction.vocabularies import MailSenderVocabulary
 from email.utils import formataddr
 from plone import api
 from plone.protect import PostOnly
 from plone.z3cform.layout import wrap_form
-from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
-from Products.statusmessages.interfaces import IStatusMessage
 from z3c.form import button
 from z3c.form import field
 from z3c.form import form
@@ -147,6 +148,7 @@ class MailSendForm(form.Form):
             self.uids = data['uids_input'].split(',')
 
         mailcount = 0
+        failed = []
         for uid in self.uids:
             obj = api.content.get(UID=uid)
 
@@ -154,8 +156,13 @@ class MailSendForm(form.Form):
                 if IHeldPosition.providedBy(obj):
                     obj = IHeldPosition(obj).get_person()
 
+                recipient = IRecipientProvider(obj)()
+                if recipient is None:
+                    failed.append(safe_unicode(obj.Title()))
+                    continue
+
                 api.portal.send_email(
-                    recipient=IRecipientProvider(obj)(),
+                    recipient=recipient,
                     sender=sender_mail,
                     subject=data['subject'],
                     body=msg
@@ -168,6 +175,15 @@ class MailSendForm(form.Form):
                 mapping={"number": mailcount}),
             type="info"
         )
+
+        if failed:
+            statusmessages.add(
+                _(u"status_mails_failed",
+                    default="${num} contacts without email-address: ${names}",
+                    mapping={'num': len(failed),
+                             'names': u','.join(failed)}),
+                type="warning"
+            )
 
         self.request.response.redirect(self.context.absolute_url())
 

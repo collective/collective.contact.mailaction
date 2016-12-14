@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2016-11-17 14:52+0000\n"
+"POT-Creation-Date: 2016-12-14 11:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,52 +18,57 @@ msgstr ""
 "Domain: collective.contact.mailaction\n"
 
 #. Default: "Cancel"
-#: ../browser/actions/mail.py:99
+#: ../browser/actions/mail.py:100
 msgid "button_cancel"
 msgstr ""
 
 #. Default: "Send"
-#: ../browser/actions/mail.py:103
+#: ../browser/actions/mail.py:104
 msgid "button_send"
 msgstr ""
 
 #. Default: "Reply To:"
-#: ../browser/actions/mail.py:48
+#: ../browser/actions/mail.py:49
 msgid "form_reply_to"
 msgstr ""
 
 #. Default: "Subject:"
-#: ../browser/actions/mail.py:53
+#: ../browser/actions/mail.py:54
 msgid "form_subject"
 msgstr ""
 
 #. Default: "Template:"
-#: ../browser/actions/mail.py:43
+#: ../browser/actions/mail.py:44
 msgid "form_template"
 msgstr ""
 
 #. Default: "Text:"
-#: ../browser/actions/mail.py:57
+#: ../browser/actions/mail.py:58
 msgid "form_text"
 msgstr ""
 
 #. Default: "You can use restructured text here."
-#: ../browser/actions/mail.py:58
+#: ../browser/actions/mail.py:59
 msgid "form_text_help"
 msgstr ""
 
 #. Default: "Send mail to"
-#: ../browser/actions/mail.py:28
+#: ../browser/actions/mail.py:29
 msgid "label_mail_batch"
 msgstr ""
 
 #. Default: "Sent ${number} E-Mails."
-#: ../browser/actions/mail.py:166
+#: ../browser/actions/mail.py:173
 msgid "status_mail_send"
 msgstr ""
 
+#. Default: "${num} contacts without email-address: ${names}"
+#: ../browser/actions/mail.py:181
+msgid "status_mails_failed"
+msgstr ""
+
 #. Default: "Failed to parse the Form."
-#: ../browser/actions/mail.py:111
+#: ../browser/actions/mail.py:112
 msgid "status_parse_error"
 msgstr ""
 

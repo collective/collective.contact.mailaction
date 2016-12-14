@@ -8,6 +8,8 @@ Changelog
 - Add translations for de, it, fr and sl
   [fRiSi]
 
+- Skip contacts w/o email-address and list them in a warning message [fRiSi]
+
 
 1.0 (2016-09-21)
 ----------------

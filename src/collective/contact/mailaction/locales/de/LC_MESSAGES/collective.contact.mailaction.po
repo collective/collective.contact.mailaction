@@ -1,12 +1,13 @@
+# Harald Friessnegger <harald@webmeisterei.com>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-11-17 14:52+0000\n"
-"PO-Revision-Date: 2016-11-16 11:22+0100\n"
-"Last-Translator: Rene Jochum <info@smile4.at>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2016-12-14 11:01+0000\n"
+"PO-Revision-Date: 2016-12-14 12:03+0100\n"
+"Last-Translator: Harald Friessnegger <harald@webmeisterei.com>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Code: de\n"
@@ -14,55 +15,61 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: collective.contact.mailaction\n"
 "Language: de\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Lokalize 2.0\n"
 
 #. Default: "Cancel"
-#: ../browser/actions/mail.py:99
+#: ../browser/actions/mail.py:100
 msgid "button_cancel"
 msgstr "Abbrechen"
 
 #. Default: "Send"
-#: ../browser/actions/mail.py:103
+#: ../browser/actions/mail.py:104
 msgid "button_send"
 msgstr "Senden"
 
 #. Default: "Reply To:"
-#: ../browser/actions/mail.py:48
+#: ../browser/actions/mail.py:49
 msgid "form_reply_to"
 msgstr "Antwort an:"
 
 #. Default: "Subject:"
-#: ../browser/actions/mail.py:53
+#: ../browser/actions/mail.py:54
 msgid "form_subject"
 msgstr "Betreff:"
 
 #. Default: "Template:"
-#: ../browser/actions/mail.py:43
+#: ../browser/actions/mail.py:44
 msgid "form_template"
 msgstr "Vorlage:"
 
 #. Default: "Text:"
-#: ../browser/actions/mail.py:57
+#: ../browser/actions/mail.py:58
 msgid "form_text"
 msgstr "Text:"
 
 #. Default: "You can use restructured text here."
-#: ../browser/actions/mail.py:58
+#: ../browser/actions/mail.py:59
 msgid "form_text_help"
 msgstr "Hier kann „restructured text“ verwendet werden."
 
 #. Default: "Send mail to"
-#: ../browser/actions/mail.py:28
+#: ../browser/actions/mail.py:29
 msgid "label_mail_batch"
 msgstr "Sende ein Mail"
 
 #. Default: "Sent ${number} E-Mails."
-#: ../browser/actions/mail.py:166
+#: ../browser/actions/mail.py:173
 msgid "status_mail_send"
 msgstr "${number} E-Mails versendet."
 
+#. Default: "${num} contacts without email-address: ${names}"
+#: ../browser/actions/mail.py:181
+msgid "status_mails_failed"
+msgstr "${num} Kontakte ohne E-Mail Adresse: ${names}"
+
 #. Default: "Failed to parse the Form."
-#: ../browser/actions/mail.py:111
+#: ../browser/actions/mail.py:112
 msgid "status_parse_error"
 msgstr "Fehler beim Auslesen des Formulars."
+
 

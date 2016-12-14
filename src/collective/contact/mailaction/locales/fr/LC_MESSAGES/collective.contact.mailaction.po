@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2016-11-17 14:52+0000\n"
+"POT-Creation-Date: 2016-12-14 11:01+0000\n"
 "PO-Revision-Date: 2016-10-04 16:18+0200\n"
 "Last-Translator: Rene Jochum <info@smile4.at>\n"
 "Language-Team: \n"
@@ -17,52 +17,57 @@ msgstr ""
 "X-Generator: Poedit 1.8.8\n"
 
 #. Default: "Cancel"
-#: ../browser/actions/mail.py:99
+#: ../browser/actions/mail.py:100
 msgid "button_cancel"
 msgstr "Annuler"
 
 #. Default: "Send"
-#: ../browser/actions/mail.py:103
+#: ../browser/actions/mail.py:104
 msgid "button_send"
 msgstr "Envoyer"
 
 #. Default: "Reply To:"
-#: ../browser/actions/mail.py:48
+#: ../browser/actions/mail.py:49
 msgid "form_reply_to"
 msgstr "Répondre à :"
 
 #. Default: "Subject:"
-#: ../browser/actions/mail.py:53
+#: ../browser/actions/mail.py:54
 msgid "form_subject"
 msgstr "Objet :"
 
 #. Default: "Template:"
-#: ../browser/actions/mail.py:43
+#: ../browser/actions/mail.py:44
 msgid "form_template"
 msgstr "Modèle :"
 
 #. Default: "Text:"
-#: ../browser/actions/mail.py:57
+#: ../browser/actions/mail.py:58
 msgid "form_text"
 msgstr "Texte :"
 
 #. Default: "You can use restructured text here."
-#: ../browser/actions/mail.py:58
+#: ../browser/actions/mail.py:59
 msgid "form_text_help"
 msgstr "Aide texte"
 
 #. Default: "Send mail to"
-#: ../browser/actions/mail.py:28
+#: ../browser/actions/mail.py:29
 msgid "label_mail_batch"
 msgstr "Envoie un courriel"
 
 #. Default: "Sent ${number} E-Mails."
-#: ../browser/actions/mail.py:166
+#: ../browser/actions/mail.py:173
 msgid "status_mail_send"
 msgstr "${number} courriels envoyés."
 
+#. Default: "${num} contacts without email-address: ${names}"
+#: ../browser/actions/mail.py:181
+msgid "status_mails_failed"
+msgstr ""
+
 #. Default: "Failed to parse the Form."
-#: ../browser/actions/mail.py:111
+#: ../browser/actions/mail.py:112
 msgid "status_parse_error"
 msgstr "Erreur lors du traitement du formulaire."
 
