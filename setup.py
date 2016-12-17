@@ -19,7 +19,7 @@ long_description = (
 
 setup(
     name='collective.contact.mailaction',
-    version='1.1.dev0',
+    version='1.1',
     description="An add-on to send mails to contacts of collective.contacts.*",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
